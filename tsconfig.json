@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "noUnusedLocals": false,
+    "noLib": false,
+    "useUnknownInCatchVariables": false,
+    "allowJs": true,
+    "outDir": "dist/server",
+    "strict": true,
+    "lib": ["es7", "DOM"],
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021",
+    "sourceMap": true,
+    "baseUrl": "./",
+    "incremental": true,
+    "strictPropertyInitialization": false,
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false
+  },
+  "include": ["src/server", "src/shared"],
+  "exclude": ["src/client", "node_modules"]
+}
